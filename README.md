@@ -1,6 +1,6 @@
-# antecli
-
 <div align="center">
+
+# antecli
 
 **Poker Solitaire but in your terminal**
 
@@ -8,10 +8,10 @@
 
 </div>
 
-**Install**
+## Install
 ```sh
 go install github.com/Kyohans/antecli
-ante_cli # Ensure GOPATH is added to your PATH
+antecli # Ensure GOPATH is added to your PATH
 ```
 
 ## How to play
