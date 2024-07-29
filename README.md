@@ -10,7 +10,7 @@
 
 ## Install
 ```sh
-go install github.com/Kyohans/antecli
+go install github.com/Kyohans/antecli@latest
 antecli # Ensure GOPATH is added to your PATH
 ```
 
