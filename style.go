@@ -58,7 +58,7 @@ func Results(scoredHands [2][]string, board string, score int) string {
   scoreStyle := detailsStyle.Width(40).AlignHorizontal(lipgloss.Center).Padding(2, 4).UnsetBorderStyle()
 
   rowsLabeled := append([]string{"\tRows 👉"}, scoredHands[0]...)
-  colsLabeled := append([]string{"\tCols 👇"}, scoredHands[1]...)
+  colsLabeled := append([]string{"\tColumns 👇"}, scoredHands[1]...)
   helpText := [2]lipgloss.Style{defaultStyle.Foreground(defaultColor), defaultStyle.Foreground(subtitleColor)}
   finalScore := strings.Join(
     []string{
