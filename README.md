@@ -2,7 +2,7 @@
 
 # antecli
 
-**Poker Solitaire but in your terminal**
+**Poker Squares but in your terminal**
 
 <img align="center" alt="preview img" src="preview.png"/>
 
@@ -16,7 +16,7 @@ antecli # Ensure GOPATH is added to your PATH
 
 ## How to play
 
-You can place a card on any unoccupied square. After all 25 squares are filled, poker hands on each row and column are summed up for the final score.
+You can place a card on any unoccupied square. After all 25 squares are filled, poker hands on each row and column are summed up for the final score. Note that once you place a card, it cannot be changed. This is a game of luck and patience so good luck!
 
 ## Scoring
 
